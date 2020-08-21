@@ -1,0 +1,6 @@
+div {height: 240px; width: 340px; background: cyan; margin: 50px; border-radius: 5px; position: absolute;}
+#anim:hover {animation-name: colorchange; animation-duration: 500ms; animation-iteration-count: infinite;}
+@keyframes colorchange{0%{background-color: cyan;}100%{background-color: #4791d0;}}
+#smallbox {animation-name: smallboxmove; animation-duration: 1s;animation-iteration-count: infinite; height: 40px; width: 170px; background-color: #FFFFFF; border: 5px solid red; border-radius: 5px;margin: 50px;position: relative;}
+@keyframes smallboxmove {0%{background-color: #FFFFFF;position: relative; top: 0px;}25%{background-color: #D3D3D3;top: 50px;}50%{background-color: #000000;top: 100px;}75%{background-color: gray;top: 50px;}100%{background-color: #FFFFFF; top: 0px;}}
+a:-webkit-any-link {text-align: center;}

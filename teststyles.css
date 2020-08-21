@@ -1,0 +1,20 @@
+div {
+    height: 40px;
+    width: 70%;
+    background: blue;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+#anim {
+	animation-name: colorful;
+	animation-duration: 3s;
+}
+
+@keyframes colorful {
+	0% {
+		background-color: blue;
+	}
+	100% {
+		background-color: yellow;
+	}
+}
